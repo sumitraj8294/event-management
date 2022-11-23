@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+  </head>
+  <body>
+    <!-- <div class="landing-image" id="home">
+      <img src="/images/image1.jpg" alt="" />
+    </div> -->
+  
+    <div class="web-view" style="max-width:100%;" id="home">
+      <img class="mySlides" src="image1.jpg" style="width:100%;margin-top: 0;">
+      <img class="mySlides" src="image2.jpg" style="width:100%">
+      <img class="mySlides" src="image3.jpg" style="width:100%">
+    </div>
+    <div class="mobile-view" style="max-width:100%;" id="home">
+      <img class="mySlides1" src="image-1.jpg" style="width:100%;margin-top: 0;">
+      <img class="mySlides1" src="image2-bg.jpg" style="width:100%">
+      <img class="mySlides1" src="image3-bg.jpg" style="width:100%">
+    </div>
+
+    
+
+  
+
+    <header class="navbar">
+            <div class="logo">
+              <img
+                src="event-organizer-png-8-png-image-organizer-png-350_350.png"
+                alt="logo"
+              />
+              <h2>Event Org.</h2>
+            </div>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-us">About us</a></li>
+              <li><a href="#why-us">Why us</a></li>
+              <li><a href="#key-bookings">Key bookings</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+    </header>
+    <div class="topnav">
+      <div style="display: flex;">
+        <img style="margin-left: 30px;margin-top:10px" width="30px" src="event-organizer-png-8-png-image-organizer-png-350_350.png" alt="">
+        <h4 style="color:white;margin: 10px;margin-top: 16px;">Event Org.</h4>
+      </div>
+        
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#home">Home</a>    
+            <a href="#about-us">About us</a>    
+            <a href="#why-us">Why us</a>    
+            <a href="#key-bookings">Key bookings</a>    
+            <a href="#gallery">Gallery</a>    
+            <a href="#contact">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="form-popup" id="myForm">
+        
+
+        <form action="" class="form-container">
+          <img width="300vw" src="image3.jpg" alt=""><br>
+          <h2>FILL THIS FOR FORM FOR QUERY</h2>
+
+          
+          
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter name" name="name" required> 
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="number"><b>Mobile no</b></label>
+          <input type="number" placeholder="Enter Mobile no" name="number" required>
+      
+          <button type="submit" id="submit" class="btn" onclick="closeForm()">Submit</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+         
+    
+
+   
+    <div class="text-content" id="about-us">
+      <span id="first-p">Event</span><span id="second-p"> Management</span>
+      <br />
+      <br />
+      <p style="font-size: 20px;">
+        The Easiest, Most Affordable Way to Manage All of Your Events. Get
+        Started Today! We've Got Everything You Need to Run Your Business from
+        Start to Finish.
+      </p>
+      <br />
+
+      <button class="open-button" onclick="openForm()">Book Now</button>
+    </div>
+    <div class="About-us">
+      <div>
+        <h1 id="about-text">
+          A <b id="about-text2">PERFECT MANAGEMENT</b><br />
+          FOR ALL YOUR EVENTS
+        </h1>
+        <div class="about-1">
+          <h3>MANAGE YOUR EVENT</h3>
+          <br />
+          <p>
+            We manages your every event professionaly, contact us for
+            pre-booking, we have successfully organized many events
+          </p>
+        </div>
+        <br />
+      </div>
+
+      <div>
+        <h1 id="about-text">
+          END-TO-END
+          <br />
+          <strong id="about-text2">PLANNING</strong>
+        </h1>
+        <br />
+        <p id="about-text3">
+          We plan events end to end , we have a team of highly qualified event
+          managers , we have successfully organized many events, with a
+          success rate of 100%. If you want to reach us feel free to contact us
+          for queries.
+        </p>
+      </div>
+    </div>
+    <div class="about-2">
+      <div>
+        <img width="100vw" src="schedule.png" alt="" />
+        <h4>Schedule</h4>
+      </div>
+      <div>
+        <img width="100vw" src="register.png" alt="" />
+        <h4>Online register</h4>
+      </div>
+      <div>
+        <img width="100vw" src="2016-concert-logo_1024.png" alt="" />
+        <h4>Perfect Management</h4>
+      </div>
+      <div>
+        <img width="100vw" src="Professional.png" alt="" />
+        <h4>24/7 services</h4>
+      </div>
+      <div>
+        <img
+          width="100vw"
+          src="travel1.png"
+          alt=""
+        />
+        <h4>Travel Planner</h4>
+      </div>
+    </div>
+    <h1 id="about-text2" style="text-align: center;margin-top: 30px;">
+      <b id="about-text">WHY TO</b>
+         CHOOSE US
+       </h1>
+    <div class="why-us" id="why-us">
+      <div class="card">
+        <img src="bulb.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <h3><b>Great lightning</b></h3>
+          <br />
+          <p>
+            Why is lighting so important, you might ask? Simply put, it can
+            drastically change the impact of your event and completely transform
+            the look, feel, and ambiance of your venue.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="management.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <h3><b>Professional Managers</b></h3>
+          <br />
+          <p>
+            Event managers plan and organise promotional, business and social
+            events. They're responsible for running a range of events, ensuring
+            the target audience is engaged and the message of the event is
+            marketed properly.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="catering.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <h3><b>Catering Services</b></h3>
+          <br />
+          <p>
+            Yes, catering services coordinate the preparation, creation,
+            delivery, and presentation of food for clients. If you’ve ever
+            attended a wedding reception, fundraiser, bridal shower, rehearsal
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="bagpack.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <h3><b>Trip Planner</b></h3>
+          <br />
+          <p>
+            Planning a trip in advance gives everyone time to thoughtfully
+            consider where they'd like to go and what they'd like to experience,
+            as well as what their ideal time frame is for traveling.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="key-bookings" id="key-bookings">
+      <h1 id="about-text2" style="text-align: center;margin-top: 30px;">
+      <b id="about-text">KEY</b>
+         BOOKINGS
+       </h1>
+      <ul class="cards">
+        <li>
+          <a href="" class="card1">
+            <img
+              src="concert-key.jpg"
+              class="card__image"
+              alt=""
+            />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Concerts</h3>
+                </div>
+              </div>
+              <p class="card__description">
+                We manage the Concert in a very professional way.Book now us.
+              </p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="" class="card1">
+            <img
+              src="wedding.jpg"
+              class="card__image"
+              alt=""
+            />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Weddings</h3>
+                </div>
+              </div>
+              <p class="card__description">
+                We also manage the wedding event perfectly,go through our
+                gallery .
+              </p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="" class="card1">
+            <img
+              src="HealthyBirthday.jpg"
+              class="card__image"
+              alt=""
+            />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+
+                <div class="card__header-text">
+                  <h3 class="card__title">Birthdays</h3>
+                </div>
+              </div>
+              <p class="card__description">
+                We also manage the birthday parties for individuals.
+              </p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="" class="card1">
+            <img
+              src="buisness.jpg"
+              class="card__image"
+              alt=""
+            />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Business parties</h3>
+                </div>
+              </div>
+              <p class="card__description">
+                looking for a great buisness party organizer , book us
+              </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+     <div>
+      <h1 id="about-text2" style="text-align: center;margin-top: 30px;">
+        <b id="about-text">OUR</b>
+         GALLERY
+       </h1>
+    
+      <div class="gallery-image" style="max-width:60%;" id="home">
+        <img class="gallery-show" src="image1.jpg" style="width:100%;margin-top: 0;">
+        <img class="gallery-show" src="image2.jpg" style="width:100%">
+        <img class="gallery-show" src="image3.jpg" style="width:100%">
+        <img class="gallery-show" src="concert-key.jpg" style="width:100%">
+        <img class="gallery-show" src="buisness.jpg" style="width:100%">
+        <img class="gallery-show" src="wedding.jpg" style="width:100%">
+      </div>
+
+      
+     </div>
+
+
+      
+
+    </div>
+    
+     <div class="contact">
+      <h1 id="about-text2" style="text-align: center;">
+        <b id="about-text">EVENT ORG</b>
+         CONTACT US
+       </h1>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234447.6699573528!2d85.18123956382613!3d23.34314249688164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5db7dd%3A0xdc09d49d6899f43e!2sRanchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1669167980629!5m2!1sen!2sin" width="300px" height="280px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-information">
+        <h1>A project by</h1>
+        <img width="50px" src="event-organizer-png-8-png-image-organizer-png-350_350.png" alt="">
+        <br>
+        <br>
+        <p>Address-Surya colony,kathartoli</p>
+        <p>Ranchi-834001</p>
+        <p>jharkhand</p> <br>
+        <div class="social2">
+          <a title="Linkedin Profile" href="https://www.linkedin.com/in/sumit-raj-a93453227" target="_blank"><img
+                  id="sf" width="20px" height="20px" src="linkedin2.jfif" alt=""></a>
+          <a title="Click here to DM on instagram" href="https://www.instagram.com\sumit.raj_17" target="_blank"><img
+                  id="sf" width="23x" height="20px" src="iconinsta.jfif" alt=""></a>
+          <a title="sumit's twitter account" href="https://www.twitter.com\SavageSumit" target="_blank"><img id="sf"
+                  width="20px" height="20px" src="bird.jfif" alt=""></a>
+      </div>
+        
+
+       
+       </div>
+    </div>
+     
+     </div>
+    
+      
+   
+
+    <div class="footer">
+      <t>&copy;Copyright <strong>Sumit Raj</strong>.All rights reserved</t>
+      <p>Designed By <b id="footer-p">Sumit Raj</b></p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+ 
+
+    <script src="main.js"></script>
+  </body>
+</html>
