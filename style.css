@@ -483,7 +483,7 @@ html{
   
 /* for mobile view */
 
-@media(width<600px){
+@media(width<1000px){
 .web-view{
   display: none;
 }
